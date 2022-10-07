@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="/style/reset.css">
+  <title>Fruity</title>
+</head>
+<body>
+  <section class="cart-block none">
+    <div class="cart-content">
+      <div class="cart-close-btn">
+        <button type="button" class="cart-button btn">
+          <span class="cart-button__icon btn__icon"></span>
+        </button>
+      </div>
+      <h1 class="cart-title title">Cart</h1>
+      <p class="cart-empty">The basket is empty</p>
+      <div class="cart-wrapper">
+      </div>
+      <div class="order-form none">
+        <div class="order-form-wrapper">
+          <div class="total">
+            <span class="total-title">Total:</span>
+            <span class="total-price">0</span>
+            <span>$</span>
+          </div>
+          <div class="order-weight">
+            <span class="total-title">Weight:</span>
+            <span class="total-weight">0</span>
+            <span>kg</span>
+          </div>
+          <div class="order-bottom">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your phone number">
+            </div>
+            <button class="order-btn" type="submit">Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <main>
+
+    <section class="first-screen">
+      <div class="first-screen-bg">
+        <div class="first-screen-bg-left"></div>
+        <div class="first-screen-bg-right"></div>
+      </div>
+      <div class="container">
+        <header class="header">
+          <div class="header-logo">
+            <img src="/img/first-screen/Fruity-logo.svg" alt="Fruity-logo">
+          </div>
+          <nav class="header-menu">
+            <a href="#" class="header-menu__link link-animation">Home</a>
+            <a href="#" class="header-menu__link link-animation">Categories</a>
+            <a href="#" class="header-menu__link link-animation">About Us</a>
+          </nav>
+
+          <div class="header-action">
+            <div class="menu-mobile">
+              <nav class="header-menu-mobile none">
+                <a href="#" class="header-menu__link">Home</a>
+                <a href="#" class="header-menu__link">Categories</a>
+                <a href="#" class="header-menu__link">About Us</a>
+              </nav>
+              <div class="menu-btn">
+                <span></span>
+              </div>
+            </div>
+
+            <a href="tel:+79991234567" class="header-action__contact">Contact Us</a>
+            <button class="header-action__search-cart cart"></button>
+            <button class="header-action__search-cart search"></button>
+          </div>
+        </header>
+        <div class="first-screen-content">
+          <h1 class="first-screen__title"><span>Organic</span> Healthy Fresh Food For You<span>.</span></h1>
+          <p class="first-screen__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+          <button class="first-screen__btn btn-animation">Order Now</button>
+        </div>
+      </div>
+    </section>
+    <section class="products">
+          <div class="container">
+            <h1 class="products__title">Featured Product</h1>
+            <div class="products-block">
+              <div class="products-item" data-id="01">
+                <div class="products-item-cart products-item-cart_bg-1">
+                  <img class="products-item-cart__img" src="/img/fruits/cart-01.png" alt="Fruit">
+                </div>
+                <div class="products-item-content">
+                  <div class="products-item-top">
+                    <p class="products-item__name">Ripe Yellow Banana</p>
+                    <p>$<span class="products-item__price">2.89</span></p>
+                  </div>
+                  <div class="products-item-bottom">
+                    <p class="products-item__weight">500g</p>
+                    <button data-cart class="products-item__btn">Buy</button>
+                  </div>
+                </div>
+              </div>
+              <div class="products-item" data-id="02">
+                <div class="products-item-cart products-item-cart_bg-2">
+                  <img class="products-item-cart__img" src="/img/fruits/cart-02.png" alt="Fruit">
+                </div>
+                <div class="products-item-content">
+                  <div class="products-item-top">
+                    <p class="products-item__name">Red Pomegranate</p>
+                    <p>$<span class="products-item__price">3.89</span></p>
+                  </div>
+                  <div class="products-item-bottom">
+                    <p class="products-item__weight">500g</p>
+                    <button data-cart class="products-item__btn">Buy</button>
+                  </div>
+                </div>
+              </div>
+              <div class="products-item" data-id="03">
+                <div class="products-item-cart products-item-cart_bg-3">
+                  <img class="products-item-cart__img" src="/img/fruits/cart-03.png" alt="Fruit">
+                </div>
+                <div class="products-item-content">
+                  <div class="products-item-top">
+                    <p class="products-item__name">Sweet Orange</p>
+                    <p>$<span class="products-item__price">2.89</span></p>
+                  </div>
+                  <div class="products-item-bottom">
+                    <p class="products-item__weight">500g</p>
+                    <button data-cart class="products-item__btn">Buy</button>
+                  </div>
+                </div>
+              </div>
+              <div class="products-item" data-id="04">
+                <div class="products-item-cart products-item-cart_bg-4">
+                  <img class="products-item-cart__img" src="/img/fruits/cart-04.png" alt="Fruit">
+                </div>
+                <div class="products-item-content">
+                  <div class="products-item-top">
+                    <p class="products-item__name">Tasty Avocado</p>
+                    <p>$<span class="products-item__price">3.89</span></p>
+                  </div>
+                  <div class="products-item-bottom">
+                    <p class="products-item__weight">500g</p>
+                    <button data-cart class="products-item__btn">Buy</button>
+                  </div>
+                </div>
+              </div>
+              <div class="products-item" data-id="05">
+                <div class="products-item-cart products-item-cart_bg-5">
+                  <img class="products-item-cart__img" src="/img/fruits/cart-05.png" alt="Fruit">
+                </div>
+                <div class="products-item-content">
+                  <div class="products-item-top">
+                    <p class="products-item__name">Ripe red apples</p>
+                    <p>$<span class="products-item__price">5.89</span></p>
+                  </div>
+                  <div class="products-item-bottom">
+                    <p class="products-item__weight">500g</p>
+                    <button data-cart class="products-item__btn">Buy</button>
+                  </div>
+                </div>
+              </div>
+              <div class="products-item" data-id="06">
+                <div class="products-item-cart products-item-cart_bg-6">
+                  <img class="products-item-cart__img" src="/img/fruits/cart-06.png" alt="Fruit">
+                </div>
+                <div class="products-item-content">
+                  <div class="products-item-top">
+                    <p class="products-item__name">Ripe Green Apple</p>
+                    <p>$<span class="products-item__price">1.89</span></p>
+                  </div>
+                  <div class="products-item-bottom">
+                    <p class="products-item__weight">500g</p>
+                    <button data-cart class="products-item__btn">Buy</button>
+                  </div>
+                </div>
+              </div>
+              <div class="products-item" data-id="07">
+                <div class="products-item-cart products-item-cart_bg-7">
+                  <img class="products-item-cart__img" src="/img/fruits/cart-07.png" alt="Fruit">
+                </div>
+                <div class="products-item-content">
+                  <div class="products-item-top">
+                    <p class="products-item__name">Sweet Strawberry</p>
+                    <p>$<span class="products-item__price">5.89</span></p>
+                  </div>
+                  <div class="products-item-bottom">
+                    <p class="products-item__weight">500g</p>
+                    <button data-cart class="products-item__btn">Buy</button>
+                  </div>
+                </div>
+              </div>
+              <div class="products-item" data-id="08">
+                <div class="products-item-cart products-item-cart_bg-8">
+                  <img class="products-item-cart__img" src="/img/fruits/cart-08.png" alt="Fruit">
+                </div>
+                <div class="products-item-content">
+                  <div class="products-item-top">
+                    <p class="products-item__name">Tasty Watermelon</p>
+                    <p>$<span class="products-item__price">6.89</span></p>
+                  </div>
+                  <div class="products-item-bottom">
+                    <p class="products-item__weight">500g</p>
+                    <button data-cart class="products-item__btn">Buy</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <section class="how-it-works">
+        <div class="container">
+          <div class="how-it-works-block">
+            <div class="how-it-works-photos">
+              <div class="how-it-works-photos-left">
+                <img src="/img/how-it-works/cart-01.png" alt="Photo">
+                <img src="/img/how-it-works/cart-02.png" alt="Photo">
+              </div>
+              <div class="how-it-works-photos-right">
+                <img src="/img/how-it-works/cart-03.png" alt="Photo">
+                <img src="/img/how-it-works/cart-04.png" alt="Photo">
+              </div>
+            </div>
+            <div class="how-it-works-content">
+              <h1 class="title">How it Works</h1>
+              <p class="text">Lorem Ipsum is simply dummy text of the printi and typesetting industry. Lorem Ipsum has been the industry's </p>
+              <ul class="how-it-works-list">
+                <li>
+                  <h2 class="how-it-works-list__title">Choose Product</h2>
+                  <p class="how-it-works-list__text">Lorem Ipsum is simply dummy text of the printi</p>
+                </li>
+                <li>
+                  <h2 class="how-it-works-list__title">Choose Product</h2>
+                  <p class="how-it-works-list__text">Lorem Ipsum is simply dummy text of the printi</p>
+                </li>
+                <li>
+                  <h2 class="how-it-works-list__title">Choose Product</h2>
+                  <p class="how-it-works-list__text">Lorem Ipsum is simply dummy text of the printi</p>
+                </li>
+                <li>
+                  <h2 class="how-it-works-list__title">Choose Product</h2>
+                  <p class="how-it-works-list__text">Lorem Ipsum is simply dummy text of the printi</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="about-us">
+      <div class="about-us-block">
+        <div class="about-us-content">
+          <h1 class="title">About Us</h1>
+          <p class="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+          <button class="about-us__btn btn-animation">Read More</button>
+        </div>
+        <div class="about-us-img">
+          <img src="/img/about-us/img.png" alt="Photo">
+        </div>
+      </div>
+    </section>
+    <section class="review">
+      <div class="container">
+        <h1 class="title">Customer Review</h1>
+        <div class="slider">
+          <div class="slider-container">
+            <div class="slider-track">
+              <div class="slider-item">
+                <div class="slider-item-text">
+                  <p>  We help our clients make realize thier most important businessWe help our clients make realize thier  We help our clients make realize thier most important businessWe help our clients make realize </p>
+                </div>
+                <div class="slider-item-custom">
+                  <div class="custom-photo">
+                    <img src="/img/customer/customer.png" alt="">
+                  </div>
+                  <div class="custom-name">
+                    <p>Kevin Andrew</p>
+                    <p>Happy Customers</p>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-item">
+                <div class="slider-item-text">
+                  <p>  We help our clients make realize thier most important businessWe help our clients make realize thier  We help our clients make realize thier most important businessWe help our clients make realize </p>
+                </div>
+                <div class="slider-item-custom">
+                  <div class="custom-photo">
+                    <img src="/img/customer/customer.png" alt="">
+                  </div>
+                  <div class="custom-name">
+                    <p>Kevin Andrew</p>
+                    <p>Happy Customers</p>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-item">
+                <div class="slider-item-text">
+                  <p>  We help our clients make realize thier most important businessWe help our clients make realize thier  We help our clients make realize thier most important businessWe help our clients make realize </p>
+                </div>
+                <div class="slider-item-custom">
+                  <div class="custom-photo">
+                    <img src="/img/customer/customer.png" alt="">
+                  </div>
+                  <div class="custom-name">
+                    <p>Kevin Andrew</p>
+                    <p>Happy Customers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-btn">
+            <button class="btn-prev">
+              <svg width="11" height="18" viewBox="0 0 11 18"xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.8334 0.5L10.8309 2.4975L4.34257 9L10.8309 15.5025L8.8334 17.5L0.333403 9L8.8334 0.5Z"/>
+              </svg>
+            </button>
+            <button class="btn-next">
+              <svg width="11" height="18" viewBox="0 0 11 18"xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.1666 0.5L0.169098 2.4975L6.65743 9L0.169098 15.5025L2.1666 17.5L10.6666 9L2.1666 0.5Z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <img src="/img/footer/footer-logo.svg" alt="" class="footer-logo">
+          <p class="footer-text">Lorem Ipsum is simply dummy typesetting industry. Lorem Ipsum has been the industry's standard </p>
+        </div>
+        <div class="footer-column">
+          <h2 class="footer-column__title">Community</h2>
+          <ul class="footer-list">
+            <li class="footer-list-item"><a class="link-animation" href="#">For Agents</a></li>
+            <li class="footer-list-item"><a class="link-animation" href="#">For Seller</a></li>
+            <li class="footer-list-item"><a class="link-animation" href="#">For Buyer</a></li>
+            <li class="footer-list-item"><a class="link-animation" href="#">Search home</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h2 class="footer-column__title">About</h2>
+          <ul class="footer-list">
+            <li class="footer-list-item"><a class="link-animation" href="#">Our Story</a></li>
+            <li class="footer-list-item"><a class="link-animation" href="#">Careers</a></li>
+            <li class="footer-list-item"><a class="link-animation" href="#">Meet the Team</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h2 class="footer-column__title">Contact</h2>
+          <ul class="footer-list">
+            <li class="footer-list-item"><a href="#">29/A Berden Street</a></li>
+            <li class="footer-list-item"><a href="#">Simply random text</a></li>
+            <li class="footer-list-item"><a href="#">It has roots in a piece of classical latin from 45</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+  <script src="/script/script.js"></script>
+</body>
+</html>
